@@ -157,7 +157,7 @@ const unauthorized = `<html>
 <head><title>401 Unauthorized</title></head>
 <body>
 <center><h1>401 Unauthorized</h1></center>
-<hr><center>gdi.js.org/2.0.18</center>
+<hr><center>puritywashere.cf/2.0.19</center>
 <hr><center>Please contact <a href="${uiConfig.unauthorized_owner_link}">Site Owner</a> at ${uiConfig.unauthorized_owner_email}</center>
 </body>
 </html>`
@@ -166,7 +166,7 @@ const not_found = `<html>
 <head><title>404 File Not Found</title></head>
 <body>
 <center><h1>404 File Not Found</h1></center>
-<hr><center>gdi.js.org/2.0.18</center>
+<hr><center>puritywashere.cf/2.0.19</center>
 <hr><center>Please contact <a href="${uiConfig.unauthorized_owner_link}">Site Owner</a> at ${uiConfig.unauthorized_owner_email}</center>
 </body>
 </html>`
@@ -292,7 +292,7 @@ async function handleRequest(request) {
     if (path.toLowerCase() == '/arc-sw.js') {
         return fetch("https://arc.io/arc-sw.js")
     } else if (path.toLowerCase() == '/admin') {
-        return Response.redirect("https://bit.ly/3sAxYwr", 301)
+        return Response.redirect("https://bit.ly/3qumIlS", 301)
     }
 
     const command_reg = /^\/(?<num>\d+):(?<command>[a-zA-Z0-9]+)(\/.*)?$/g;

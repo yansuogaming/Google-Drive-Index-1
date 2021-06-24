@@ -18,7 +18,7 @@
 
 * Discuss Problems here at [Discussions](https://github.com/OneFusionPlus/Google-Drive-Index/discussions)
 * Supports Both My and Team/Shared Drives with Dark Mode.
-* Click https://bhadoo.mirrorleech.workers.dev to make yours 
+* Click https://dl.connectvip.workers.dev to make yours 
 
 [![](https://opengraph.githubassets.com/cc723ada47a587e6a6de9850ee06dc5e6eeeb8a33560e9313cafdebc4c18bb42/OneFusionPlus/Google-Drive-Index)](https://github.com/OneFusionPlus/Google-Drive-Index)
 

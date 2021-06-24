@@ -1,5 +1,5 @@
 // Redesigned by t.me/TheFirstSpeedster from https://github.com/OneFusionPlus/Google-Drive-Index which was written by someone else, credits are given on Source Page.
-// v2.0.18
+// v2.0.19
 // Initialize the page
 function init() {
     document.siteName = $('title').html();

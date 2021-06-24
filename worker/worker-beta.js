@@ -1,3 +1,7 @@
+/* 
+                             ｖ ２．０．１9
+A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/OneFusionPlus/Google-Drive-Index */
+
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [
 {}

@@ -187,7 +187,7 @@ const uiConfig = {
 * arc.io is embedded in code to support gdi.js.org
 * if you have approved arc.io account, use your code.
 * incase you don't have arc account and want to support us, please keep our arc.io code in your index.
-* if anyone want to remove arc, remove [this](https://github.com/OneFusionPlus/Google-Drive-Index/blob/master/worker/worker-beta.js#L133) line from workers code.
+* if anyone want to remove arc, remove [this](https://github.com/OneFusionPlus/Google-Drive-Index/blob/master/worker/worker-beta.js#L128) line from workers code.
 
 ## Themes
 

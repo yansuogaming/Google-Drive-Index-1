@@ -1,6 +1,11 @@
-/* 
-                             ｖ ２．０．１9
-A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/OneFusionPlus/Google-Drive-Index */
+﻿/*  ░██████╗░██████╗░██╗░░░░░░░░██╗░██████╗░░░░█████╗░██████╗░░██████╗░
+    ██╔════╝░██╔══██╗██║░░░░░░░░██║██╔════╝░░░██╔══██╗██╔══██╗██╔════╝░
+    ██║░░██╗░██║░░██║██║░░░░░░░░██║╚█████╗░░░░██║░░██║██████╔╝██║░░██╗░
+    ██║░░╚██╗██║░░██║██║░░░██╗░░██║░╚═══██╗░░░██║░░██║██╔══██╗██║░░╚██╗
+    ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
+    ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
+                             v 2.0.20
+A Script Redesigned by Parveen Bhadoo from GOIndex at https://www.npmjs.com/package/@googledrive/index */
 
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [
@@ -9,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Google Drive Index", // Website name
+    "siteName": "Bhadoo Drive Index", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -51,13 +56,13 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "slate", // switch between themes, default set to vapor, select from https://github.com/OneFusionPlus/Google-Drive-Index#themes
-    "version": "2.0.19", // don't touch this one. get latest code using generator at https://generator.driveindex.ga
+    "theme": "slate", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
+    "version": "2.0.20", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.19/images/favicon.ico",
+    "favicon": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/favicon.ico",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://streamtape.com/images/Logo@2x.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
@@ -69,14 +74,14 @@ const uiConfig = {
     "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
     "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
-    "search_button_class": "btn-outline-success", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
+    "search_button_class": "btn btn-danger", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://t.me/PurityWasHere", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "puritywashere.cf", // Name next to copyright
-    "company_link": "https://t.me/PurityWasHere", // link of copyright name
+    "company_name": "Oshekher", // Name next to copyright
+    "company_link": "https://telegram.dog/Telegram", // link of copyright name
     "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
@@ -85,18 +90,19 @@ const uiConfig = {
     "custom_srt_lang": "", // Subtitle Language Code for Custom .vtt language.
     "disable_video_download": false, // Remove Download, Copy Button on Videos
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
-    "downloaddomain": "https://snowy.connectvip.workers.dev", // If "second_domain_for_dl": true then enter downloaddomain otherwise keep empty. eg. https://workers.workersname.workers.dev No Trailing '/'
-    "poster": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.19/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.19/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "downloaddomain": "https://snowy.connectvip.workers.dev/", // If "second_domain_for_dl": true then enter downloaddomain otherwise keep empty. eg. https://workers.workersname.workers.dev No Trailing '/'
+    "poster": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
+    "audioposter": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
     "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index", // If Project is Forked, then enter your Github repo
-    "render_head_md": true, // Render Head.md
-    "render_readme_md": true, // Render Readme.md
+    "render_head_md": false, // Render Head.md
+    "render_readme_md": false, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
     "plyr_io_version": "3.6.8", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "xxxxxxxx" // arc.io Integraion Code, get yours from https://portal.arc.io
+    "arc_code": "jfoY2h19", // arc.io Integraion Code, get yours from https://portal.arc.io
+    "search_all_drives": false // turn this on to switch this to gdrive search application
 };
 
 
@@ -145,8 +151,7 @@ function html(current_drive_order = 0, model = {}) {
       color: ${uiConfig.css_p_tag_color};
   }
   </style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/js/app.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@master/js/update.min.js"></script>
+  ${uiConfig.search_all_drives ? '<script src="'+uiConfig.jsdelivr_cdn_src +'@' + uiConfig.version + '/js/search.min.js"></script>' : '<script src="'+uiConfig.jsdelivr_cdn_src +'@' + uiConfig.version + '/js/app.min.js"></script>'}
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -161,7 +166,7 @@ const unauthorized = `<html>
 <head><title>401 Unauthorized</title></head>
 <body>
 <center><h1>401 Unauthorized</h1></center>
-<hr><center>puritywashere.cf/2.0.19</center>
+<hr><center>BhadooDriveIndex/2.0.20</center>
 <hr><center>Please contact <a href="${uiConfig.unauthorized_owner_link}">Site Owner</a> at ${uiConfig.unauthorized_owner_email}</center>
 </body>
 </html>`
@@ -170,7 +175,7 @@ const not_found = `<html>
 <head><title>404 File Not Found</title></head>
 <body>
 <center><h1>404 File Not Found</h1></center>
-<hr><center>puritywashere.cf/2.0.19</center>
+<hr><center>BhadooDriveIndex/2.0.20</center>
 <hr><center>Please contact <a href="${uiConfig.unauthorized_owner_link}">Site Owner</a> at ${uiConfig.unauthorized_owner_email}</center>
 </body>
 </html>`
@@ -296,7 +301,7 @@ async function handleRequest(request) {
     if (path.toLowerCase() == '/arc-sw.js') {
         return fetch("https://arc.io/arc-sw.js")
     } else if (path.toLowerCase() == '/admin') {
-        return Response.redirect("https://bit.ly/3qumIlS", 301)
+        return Response.redirect("https://www.npmjs.com/package/@googledrive/index", 301)
     }
 
     const command_reg = /^\/(?<num>\d+):(?<command>[a-zA-Z0-9]+)(\/.*)?$/g;
@@ -536,7 +541,7 @@ class googleDrive {
             this.authConfig.enable_cors_file_down && headers.append('Access-Control-Allow-Origin', '*');
             inline === true && headers.set('Content-Disposition', 'inline');
             return res;
-        } 
+        }
         else if(res.status == 404){
             return new Response(not_found, {
                 status: 404,
@@ -546,7 +551,7 @@ class googleDrive {
             })
         }
         else {
-            const res = await fetch(`${uiConfig.jsdelivr_cdn_src}@master/assets/DownloadError.html`);
+            const res = await fetch(`${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/assets/DownloadError.html`);
             return new Response(await res.text(), {
                 headers: {
                     "content-type": "text/html;charset=UTF-8",
@@ -686,7 +691,7 @@ class googleDrive {
         const types = DriveFixedTerms.gd_root_type;
         const is_user_drive = this.root_type === types.user_drive;
         const is_share_drive = this.root_type === types.share_drive;
-
+        const search_all_drives = `${uiConfig.search_all_drives}`
         const empty_result = {
             nextPageToken: null,
             curPageIndex: page_index,
@@ -704,11 +709,21 @@ class googleDrive {
         let name_search_str = `name contains '${words.join("' AND name contains '")}'`;
         let params = {};
         if (is_user_drive) {
-            params.corpora = 'user'
+            if (search_all_drives == 'true') {
+                params.corpora = 'allDrives';
+            }
+            else {
+                params.corpora = 'user';
+            }
         }
         if (is_share_drive) {
-            params.corpora = 'drive';
-            params.driveId = this.root.id;
+            if (search_all_drives == 'true') {
+                params.corpora = 'allDrives';
+            }
+            else {
+                params.corpora = 'drive';
+                params.driveId = this.root.id;
+            }
             params.includeItemsFromAllDrives = true;
             params.supportsAllDrives = true;
         }

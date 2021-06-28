@@ -1,12 +1,3 @@
-﻿/*  ░██████╗░██████╗░██╗░░░░░░░░██╗░██████╗░░░░█████╗░██████╗░░██████╗░
-    ██╔════╝░██╔══██╗██║░░░░░░░░██║██╔════╝░░░██╔══██╗██╔══██╗██╔════╝░
-    ██║░░██╗░██║░░██║██║░░░░░░░░██║╚█████╗░░░░██║░░██║██████╔╝██║░░██╗░
-    ██║░░╚██╗██║░░██║██║░░░██╗░░██║░╚═══██╗░░░██║░░██║██╔══██╗██║░░╚██╗
-    ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
-    ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
-                             v 2.0.20
-A Script Redesigned by Parveen Bhadoo from GOIndex at https://www.npmjs.com/package/@googledrive/index */
-
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [
 {}
@@ -39,22 +30,6 @@ const authConfig = {
       },
     ]};
 
-
-/*
-███████╗██████╗░██╗████████╗  ████████╗██╗░░██╗███████╗░██████╗███████╗
-██╔════╝██╔══██╗██║╚══██╔══╝  ╚══██╔══╝██║░░██║██╔════╝██╔════╝██╔════╝
-█████╗░░██║░░██║██║░░░██║░░░  ░░░██║░░░███████║█████╗░░╚█████╗░█████╗░░
-██╔══╝░░██║░░██║██║░░░██║░░░  ░░░██║░░░██╔══██║██╔══╝░░░╚═══██╗██╔══╝░░
-███████╗██████╔╝██║░░░██║░░░  ░░░██║░░░██║░░██║███████╗██████╔╝███████╗
-╚══════╝╚═════╝░╚═╝░░░╚═╝░░░  ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═════╝░╚══════╝
-
-██╗░░░██╗░█████╗░██╗░░░░░██╗░░░██╗███████╗░██████╗
-██║░░░██║██╔══██╗██║░░░░░██║░░░██║██╔════╝██╔════╝
-╚██╗░██╔╝███████║██║░░░░░██║░░░██║█████╗░░╚█████╗░
-░╚████╔╝░██╔══██║██║░░░░░██║░░░██║██╔══╝░░░╚═══██╗
-░░╚██╔╝░░██║░░██║███████╗╚██████╔╝███████╗██████╔╝
-░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
-
 const uiConfig = {
     "theme": "slate", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
     "version": "2.0.20", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
@@ -64,7 +39,7 @@ const uiConfig = {
     "logo_width": "100px", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://streamtape.com/images/Logo@2x.png",
+    "logo_link_name": "https://github.com/OneFusionPlus/Google-Drive-Index/blob/master/images/academy.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "fixed_footer": false, // If you want the footer to be flexible or fixed.

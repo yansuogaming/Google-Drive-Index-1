@@ -1,9 +1,9 @@
 # Google Personal/Shared Drive Index 
 
-[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/year)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index)
-[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/month)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
-[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/week)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
-[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/day)](https://www.jsdelivr.com/package/gh/AmirulAndalib/Google-Drive-Index) 
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/year)](https://www.jsdelivr.com/package/gh/OneFusionPlus/Google-Drive-Index)
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/month)](https://www.jsdelivr.com/package/gh/OneFusionPlus/Google-Drive-Index) 
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/week)](https://www.jsdelivr.com/package/gh/OneFusionPlus/Google-Drive-Index) 
+[![](https://data.jsdelivr.com/v1/package/gh/OneFusionPlus/Google-Drive-Index/badge/day)](https://www.jsdelivr.com/package/gh/OneFusionPlus/Google-Drive-Index) 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FOneFusionPlus%2FGoogle-Drive-Index&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/OneFusionPlus/Google-Drive-Index)
 
 ## Full White label and Customizable Index | One of a kind

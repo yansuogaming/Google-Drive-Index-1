@@ -11,16 +11,18 @@
 * Supports Both My and Team/Shared Drives with Dark Mode.
 * Click https://dl.connectvip.workers.dev to make yours.
 
-[![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/vapor.png)]
+![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/vapor.png)
 
-[![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/darkly.png)]
+![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/darkly.png)
 
 `Note: The Changes in your workers config can effect later due to cache. Use incognito mode every time to open the worker URL to overcome that issue.`
+
+* Source: [Original Repo](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index)
 
 ## How to
 
 * Stable Release `2.0.20`
-* Beta Version (Latest) - [bdi-generator](https://dl.connectvip.workers.dev) (For Dark Theme use darkly)
+* Beta Version (Latest) - [dl.connectvip](https://dl.connectvip.workers.dev) (For Dark Theme use darkly)
 * If you want to deploy main drive leave the option ROOT as it is.
 * If you want to deploy your Team Drive/Shared Drive/Folder then copy the ID and replace it with ROOT.
 * Eg. if you open this shared drive `https://drive.google.com/drive/u/0/folders/0AOM2i7MQiuWIUk9PVA` - `0AOM2i7MQiuWIUk9PVA` is its ID.

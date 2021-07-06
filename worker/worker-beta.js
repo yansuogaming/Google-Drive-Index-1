@@ -73,7 +73,7 @@ const uiConfig = {
     "nav_link_3": "Current Path", // change navigation link name
     "nav_link_4": "Contact", // change navigation link name
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
-    "hide_footer": true, // hides the footer from site entirely.
+    "hide_footer": false, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
@@ -150,7 +150,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}/js/app.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.22/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>

@@ -64,7 +64,7 @@ const uiConfig = {
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/favicon.ico",
+    "favicon": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/favicon.ico",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://prod-ak-abs-na-web-assets.erosnow.com/production/erosnow-logo656b74dd1f76aad2e8e9083d1b11f1aa.svg",
     "fixed_header": false, // If you want the footer to be flexible or fixed.
@@ -97,9 +97,9 @@ const uiConfig = {
     "disable_video_download": false, // Remove Download, Copy Button on Videos
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
     "downloaddomain": "https://snowy.connectvip.workers.dev", // Ignore this and set domains at top of this page after service accounts.
-    "poster": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index@2.0.20/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/OneFusionPlus/Google-Drive-Index", // If Project is Forked, then enter your GitHub repo
+    "poster": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
+    "audioposter": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
@@ -150,7 +150,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@${uiConfig.version}/js/app.obf.min.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>

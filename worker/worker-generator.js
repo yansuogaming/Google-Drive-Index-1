@@ -7,7 +7,7 @@ const clientId = '202264815644.apps.googleusercontent.com';
 const clientSecret = 'X4Z3ca8xfWDb1Voo-F9a7ZxJ';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/OneFusionPlus/Google-Drive-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/JinsoRaj/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index Backup';

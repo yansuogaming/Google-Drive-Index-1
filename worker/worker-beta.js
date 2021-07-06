@@ -86,8 +86,9 @@ const uiConfig = {
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "Oshekher", // Name next to copyright
-    "company_link": "https://t.me/PurityWasHere", // link of copyright name
+    "reload_text": "please reload", //refresh to load text
+    "company_name": "Oshekher", // Name after copyright year
+    "company_link": "https://t.me/PurityWasHere", // link of company name
     "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
@@ -150,7 +151,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.23/js/app.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.24/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>

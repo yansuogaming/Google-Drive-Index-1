@@ -58,7 +58,7 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "slate", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
+    "theme": "flatly", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
     "version": "2.0.21", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
@@ -75,10 +75,10 @@ const uiConfig = {
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
     "hide_footer": false, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
-    "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
-    "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
-    "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
-    "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
+    "footer_style_class": "bg-light", // bg-primary || bg-dark || bg-light
+    "css_a_tag_color": "#000000", // Color Name or Hex Code eg. #ffffff
+    "css_p_tag_color": "#007FFF", // Color Name or Hex Code eg. #ffffff
+    "folder_text_color": "#000000", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
     "search_button_class": "btn btn-danger", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
@@ -86,7 +86,7 @@ const uiConfig = {
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "reload_text": "please reload", //refresh to load text
+    "reload_text": "REFRESH the page if Contents not loaded", //refresh to load text
     "company_name": "Oshekher", // Name after copyright year
     "company_link": "https://t.me/PurityWasHere", // link of company name
     "credit": false, // Set this to true to give us credit
@@ -153,7 +153,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.26/js/app.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.27/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>

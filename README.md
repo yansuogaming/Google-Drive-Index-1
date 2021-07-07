@@ -9,7 +9,7 @@
 ## Full White label and Customizable Index | One of a kind
 
 * Supports Both My and Team/Shared Drives with Dark Mode.
-* Click https://dl.connectvip.workers.dev to make yours.
+* Click https://index.generate.workers.dev to make yours.
 
 ![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/vapor.png)
 

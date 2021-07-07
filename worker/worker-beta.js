@@ -90,6 +90,8 @@ const uiConfig = {
     "company_name": "Oshekher", // Name after copyright year
     "company_link": "https://t.me/PurityWasHere", // link of company name
     "credit": false, // Set this to true to give us credit
+    "credits_text": "credits", // 👉 dont change credit: to true
+    "credits_link": "https://telegra.ph/link", //👉 dont change credit: to true
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
@@ -151,7 +153,7 @@ function html(current_drive_order = 0, model = {}) {
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.25/js/app.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.26/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>

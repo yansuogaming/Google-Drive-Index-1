@@ -7,7 +7,7 @@ const clientId = '202264815644.apps.googleusercontent.com';
 const clientSecret = 'X4Z3ca8xfWDb1Voo-F9a7ZxJ';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.25/worker/worker-beta.js';
+const jsURL = 'https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.26/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index Backup';
@@ -326,7 +326,6 @@ async function handleRequest(request) {
     </div>
     <center><h5>© <span id="year"></span> - OneFusionPlus</h5></center>
 </div>
-
 <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
     /*snippets.js*/
@@ -387,7 +386,6 @@ async function handleRequest(request) {
     
         return actionMsg;
     }
-
 </script>
 </body>
 </html>

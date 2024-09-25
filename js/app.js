@@ -129,7 +129,7 @@ function nav(path) {
     var html = "";
     var cur = window.current_drive_order || 0;
     html += `<nav class="navbar navbar-expand-lg${UI.fixed_header ?' fixed-top': ''} ${UI.header_style_class}">
-    <div class="container-fluid">
+    <div class="container">
   <a class="navbar-brand" href="/${cur}:/">${UI.logo_image ? '<img border="0" alt="'+UI.company_name+'" src="'+UI.logo_link_name+'" height="'+UI.height+'" width="'+UI.logo_width+'">' : UI.logo_link_name}</a>
   
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -139,15 +139,6 @@ function nav(path) {
       </li>`;
     var names = window.drive_names;
     var drive_name = window.drive_names[cur];
-
-    // Dropdown to select different drive roots.
-    // html += `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">${drive_name}</a><div class="dropdown-menu" aria-labelledby="navbarDropdown">`;
-    // names.forEach((name, idx) => {
-    //     html += `<a class="dropdown-item"  href="/${idx}:/">${name}</a>`;
-    // });
-    // html += `</div></li>`;
-
-    // html += `<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">${UI.nav_link_3}</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item"  href="/">> Home</a>`;
 
     if (!model.is_search_page) {
         var arr = path.trim('/').split('/');
@@ -185,10 +176,7 @@ function nav(path) {
     const isMobile = Os.isMobile;
     var search_bar = `
 </ul>
-<form class="d-flex" method="get" action="/${cur}:search">
-<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="${search_text}" required>
-<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
-</form>
+
 </div>
 </div>
 </nav>
@@ -251,7 +239,7 @@ function list(path) {
   var content = `<div class="container">${UI.fixed_header ?'<br>': ''}
 	<div id="update"></div>
     <div id="head_md" style="display:none; padding: 20px 20px;"></div>
-    <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0; padding-bottom: 0rem;">
+    <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0; padding-bottom: 0rem; justify-content: space-between">
   <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb" id="folderne"><li class="breadcrumb-item"><a href="/">Home</a></li>`;
   var navlink = '';
@@ -283,6 +271,10 @@ function list(path) {
   }
   content += `</ol>
   </nav>
+  <form class="d-flex" method="get" action="/${cur}:search">
+<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="${search_text}" required>
+<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+</form>
   </div>
     <div id="list" class="list-group text-break">
     </div>

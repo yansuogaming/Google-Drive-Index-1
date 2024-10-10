@@ -1,6 +1,3 @@
-// Redesigned by telegram.dog/TheFirstSpeedster at https://www.npmjs.com/package/@googledrive/index which was written by someone else, credits are given on Source Page.
-// v2.0.20
-// Initialize the page
 function init() {
     document.siteName = $('title').html();
     var html = `<header>

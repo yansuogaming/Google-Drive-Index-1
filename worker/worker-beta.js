@@ -34,11 +34,11 @@ const authConfig = {
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
-          "id": "root",
-          "name": "Drive Two",
-          "protect_file_link": false,
-         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
-      },
+        "id": "root",
+        "name": "Drive Two",
+        "protect_file_link": false,
+        // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+    },
     ]};
 
 
@@ -64,7 +64,7 @@ const uiConfig = {
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
-    "favicon": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/favicon.ico",
+    "favicon": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index/images/favicon.ico",
     // if logo is true then link otherwise just text for name
     "logo_link_name": "https://prod-ak-abs-na-web-assets.erosnow.com/production/erosnow-logo656b74dd1f76aad2e8e9083d1b11f1aa.svg",
     "fixed_header": false, // If you want the footer to be flexible or fixed.
@@ -84,7 +84,7 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
+    "contact_link": "https://fb.com/dinhlong0510", // Link to Contact Button on Menu
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
     "reload_text": "REFRESH the page if Contents not loaded", //refresh to load text
     "company_name": "Oshekher", // Name after copyright year
@@ -101,13 +101,13 @@ const uiConfig = {
     "disable_video_download": false, // Remove Download, Copy Button on Videos
     "second_domain_for_dl": false, // If you want to display other URL for Downloading to protect your main domain.
     "downloaddomain": "https://snowy.connectvip.workers.dev", // Ignore this and set domains at top of this page after service accounts.
-    "poster": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.20/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "poster": "https://wallpapersmug.com/download/2560x1440/5b8d62/enjoy-rain-anime-girl.jpg", // Video poster URL or see Readme to how to load from Drive
+    "audioposter": "https://i.pinimg.com/originals/05/a1/5b/05a15b4e9bde39f514ce4eb7fd2baf36.jpg", // Video poster URL or see Readme to how to load from Drive
     "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
-    "plyr_io_version": "3.6.8", // Change plyr.io version in future when needed.
+    "plyr_io_version": "3.7.8", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
@@ -150,17 +150,17 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch/dist/${uiConfig.theme}/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <style>a{color:${uiConfig.css_a_tag_color};}p{color:${uiConfig.css_p_tag_color};}</style>
-  <script src="${uiConfig.jsdelivr_cdn_src}@2.0.28/js/app.js"></script>
+  <script src="${uiConfig.jsdelivr_cdn_src}/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.plyr.io/${uiConfig.plyr_io_version}/plyr.polyfilled.js"></script>
 </html>`;
 };

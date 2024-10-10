@@ -7,7 +7,7 @@ const clientId = '202264815644.apps.googleusercontent.com';
 const clientSecret = 'X4Z3ca8xfWDb1Voo-F9a7ZxJ';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index@2.0.28/worker/worker-beta.js';
+const jsURL = 'https://cdn.jsdelivr.net/gh/JinsoRaj/Google-Drive-Index/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index Backup';
@@ -47,9 +47,9 @@ async function handleRequest(request) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
     <title>Bhadoo Drive Index - Beta</title>
     <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/css/mdui.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/js/mdui.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui/dist/css/mdui.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/mdui/dist/js/mdui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script>
     
     <style>
         /*snippet.css*/
@@ -285,7 +285,7 @@ async function handleRequest(request) {
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 <div class="mdui-container">
     <br><br>
-    <a href="https://github.com/OneFusionPlus/Bhadoo-Drive-Index"><img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" height="30px"></a><h3>Drive Index Generator - Beta</h3>
+    <a href="https://github.com/OneFusionPlus/Bhadoo-Drive-Index"><img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/gh/jscdn/svg/bhadoo-cloud-logo.svg" height="30px"></a><h3>Drive Index Generator - Beta</h3>
     <br>
     <div class="mdui-row">
         <div class="mdui-col-sm-2">

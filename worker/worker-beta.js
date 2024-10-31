@@ -88,7 +88,7 @@ const uiConfig = {
     "copyright_year": "2021", // year of copyright, can be anything like 2015 - 2020 or just 2020
     "reload_text": "REFRESH the page if Contents not loaded", //refresh to load text
     "company_name": "Oshekher", // Name after copyright year
-    "company_link": "https://t.me/PurityWasHere", // link of company name
+    "company_link": "https://fb.com/dinhlong0510", // link of company name
     "credit": false, // Set this to true to give us credit
     "credits_text": "credits", // 👉 dont change credit: to true
     "credits_link": "https://telegra.ph/link", //👉 dont change credit: to true
